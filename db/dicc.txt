@@ -3099,6 +3099,7 @@ apiserver-aggregator.key
 apiserver-client.crt
 apiserver-key.pem
 app
+app/rest/vcs-roots
 app-admin
 app.%EXT%
 app.config
@@ -4283,6 +4284,9 @@ CVS/Entries
 CVS/Root
 cvsadmin
 cwadmin
+debug/requests
+debug/pprof/all
+debug/vars
 d
 d.php
 d0main.php
@@ -8238,6 +8242,7 @@ start.sh
 startServer.log
 startup.cfg
 startup.sh
+setEnv.sh
 stas/
 stash/
 stat/
